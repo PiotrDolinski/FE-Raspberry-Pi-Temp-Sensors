@@ -1,0 +1,58 @@
+
+.termWidget{
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    text-align: center;
+    background-color:#3b8722;
+    
+  }
+
+.alertWidget{
+   width: 200px;
+   height: 200px;
+   margin: 5px;
+   text-align: center;
+   background-color:#47bac9;
+
+}
+
+.sensor_id{
+    font-size: 24px;
+}
+  
+.temp{
+    margin: 0;
+    color:white;
+    font-size: 60px;
+    
+  }
+
+/* input{
+  
+  letter-spacing: 1px;
+  height: 30px;
+  border: none;
+  width: 200px;
+  background-color: rgb(233, 233, 233);
+} */
+
+select , input{
+
+  margin: 20px;
+  text-align-last: center;
+  letter-spacing: 1px;
+  height: 30px;
+  border: none;
+  width: 200px;
+  background-color: rgb(233, 233, 233);
+  
+}
+
+
+label{
+  
+  letter-spacing: 1px;
+  color: black;
+}
+
