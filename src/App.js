@@ -36,7 +36,6 @@ class App extends React.Component {
   };
 
   getData = () => {
-    console.log("klik");
     if (this.state.date !== "" && this.state.sensor !== "") {
       fetch("http://localhost:2000/", {
         method: "POST",
@@ -63,14 +62,7 @@ class App extends React.Component {
   handlerSensor = (e) => {
     this.setState({ sensor: e.target.value });
   };
-  
-  componentDidMount() {
- 
-    /// add live sensor data
-    
-    
-  }
-
+   
   render() {
     return (
       <div className="App">
