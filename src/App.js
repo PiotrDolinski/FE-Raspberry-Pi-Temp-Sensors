@@ -67,7 +67,8 @@ class App extends React.Component {
   componentDidMount() {
  
     /// add live sensor data
-   
+    
+    
   }
 
   render() {
